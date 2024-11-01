@@ -29,3 +29,7 @@ Sur la zone du terrain avec les balles :
 ## Divers
 
 Pour vous inciter à explorer ce repo GitHub de fond en comble, nous avons caché 4 indices pouvant vous aider dans la conception du robot.
+(indice) ***Utilisez un IDE avancé comme VS Code pour programmer (extension Arduino), ne restez pas bloqué avec l'IDE de base.***
+
+# Une `pull request`
+Une `pull request` GitHub est le moyen de demander de `merge` deux branches. (Revenez plus tard si vous n'avez pas vu ce qu'est une branche.) Les utiliser permet à tous de vérifier le code avant d'autoriser la fusion des modifications avec la base principale.
