@@ -10,8 +10,6 @@ Le parcours est constitué de deux zones mesurant approximativement 1x1 m chacun
 La première est un chemin constitué d'une bande noire de 2 cm d'épaisseur formant des tours et des boucles. Votre robot doit suivre ce chemin. Le sol est de couleur blanche.  
 Ce chemin mène à la deuxième zone, un sol de couleur verte sur lequel sont placées des balles de golf orange. Toutes les balles orange doivent être poussées en dehors du sol vert. Le carré de sol vert (1x1 m) est entouré d'une bordure de 10 cm de couleur blanche.
 
-[TODO schéma]
-
 ## Points
 
 Les scores sont constitués du temps en secondes mis par le robot pour compléter le parcours. Il est possible d'avoir un score négatif ; le but est d'avoir le plus **petit** score possible. Il y a différents malus et bonus :
@@ -19,13 +17,13 @@ Les scores sont constitués du temps en secondes mis par le robot pour compléte
 Sur la zone du chemin noir :
 - L'équipe peut décider à n'importe quel moment de replacer son robot sur la dernière ligne noire qu'il a parcourue. Cela rajoute *+10 s*.
 - Si le robot sort de la zone, l'équipe est obligée de remettre le robot sur la dernière ligne noire qu'il a parcourue, et cela rajoute *+10 s*.
-- Certains passages du parcours (les boucles principalement) peuvent être sautés à la décision de l'équipe. Cela rajoute *+Xs* selon la valeur indiquée sur la boucle.
+- Certains passages du parcours peuvent être sautés à la décision de l'équipe. Cela rajoute *+Xs* selon la valeur indiquée sur l'élèment sauté du parcours.
 
 Sur la zone du terrain avec les balles :
 - L'équipe peut décider à n'importe quel moment de replacer son robot à l'entrée du terrain. Cela rajoute *+10 s*.
 - Si le robot sort de la zone blanche entourant le terrain vert, l'équipe est obligée de remettre le robot à l'entrée du terrain, et cela rajoute *+10 s*.
-- Pousser une balle en dehors du terrain enlève des secondes : cela rajoute *-20 s*.
-- Une fois que la moitié des balles au moins ont été ramassées, l'équipe peut décider d'arrêter le challenge. Dans ce cas, un malus de *+15 s* par balle non récupérée est ajouté.
+- Pousser une balle en dehors du terrain enlève *20 s*.
+- Le challenge se termine au bout de 10min, chaque balle non ramassée rajoute *+15s*.
 
 ## Divers
 
