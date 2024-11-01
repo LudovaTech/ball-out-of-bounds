@@ -28,4 +28,3 @@ Sur la zone du terrain avec les balles :
 ## Divers
 
 Pour vous inciter à explorer ce repo GitHub de fond en comble, nous avons caché 4 indices pouvant vous aider dans la conception du robot.
-Par exemple, nous annoncer que vous devez rester pour une pièce de théâtre juste avant la compétition vous enlèvera *35s*.
